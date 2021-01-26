@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignIn Form</title>
+    <style>
+        form {
+            background-color: white;
+            margin-left: auto;
+            margin-right: auto;
+            /* height: 500px; */
+            width: 400px;
+            padding: 20px;
+        }
+        .input-item {
+            width: 100%;
+            margin-bottom: 15px;
+            margin-top: 8px;
+        }
+        .select-box {
+            margin-bottom: 3px;
+            margin-top: 5px;
+        }
+        /* .permission-accept {
+            margin-bottom: 40x;
+            /* margin: 100px; */
+        } */
+
+        .button-register{
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body style="background-color: lightblue;">
+    
+    <div>
+        <h2 style="text-align: center;">SignUp</h2>
+        <form action="GET">
+            <div>
+                <div>
+                    <label>Full Name</label> <br>
+                    <input class="input-item" type="text" name="full-name" placeholder="Full Name" required> <br>
+                </div>
+                <div>
+                    <label>Email</label> <br>
+                    <input class="input-item" type="email" name="email" required placeholder="Email"> <br>
+                </div>
+                <div>
+                    <label>Password</label> <br>
+                    <input class="input-item" type="password" name="password" placeholder="Password" required> <br>
+                </div>
+                <div>
+                    <label>Confirm Password</label> <br>
+                    <input class="input-item" type="password" name="confirm-password" placeholder="Confirm Password" required> <br>
+                </div>
+                <label class="gender-radio">Gender</label> <br>
+                <input type="radio" name="gender" value="male"> Male<br>
+                <input type="radio" name="gender" value="female"> Female<br>
+                <input type="radio" name="gender" value="other"> Other
+
+
+                <br>
+                <label>Security Question</label>
+                <br>
+                <select class="select-box" name="security-question" id="">
+                    <option value="first-question">What was your first pet name?</option>
+                    <option value="second-question">What was your job profile?</option>
+                    <option value="third-question">What was your nick name?</option>
+                </select>
+                <br>
+                <textarea class="input-item" name="text-area" id="" cols="30" rows="10" placeholder="Enter Text Here.."></textarea>
+                <br>
+                <input type="checkbox" name="term-condition" id="" value="accept">
+                <label class="permission-accept">I agree to accept the terms and conditions</label>
+                <br>
+                <input id="button-register" type="submit" value="register" name="submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

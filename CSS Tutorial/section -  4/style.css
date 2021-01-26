@@ -1,0 +1,26 @@
+/* list items has by default some padding . */
+
+
+#ordered-list {
+    list-style-type:lower-greek;
+
+}
+
+#unordered-list {
+    list-style-type:inherit ;
+    /* remove the marker*/
+    list-style-type: none;
+}
+
+
+#Second-list{
+    list-style-type: upper-alpha;
+    width: 600px;
+    /* Now I our list items are indented */
+
+    /* to remove the indentation from the list items 
+    we used list-style-position property */
+
+    list-style-position: inside;
+
+}

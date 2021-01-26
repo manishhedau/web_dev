@@ -1,0 +1,232 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+/* navbar */
+
+.Container{
+    background-color: black;
+    padding: 8px;
+    text-decoration: none;
+
+}
+.navbar-menus{
+    text-align: right;
+    padding-right: 20%;
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+.navbar-items, li{
+    display: inline;
+    list-style-type: none;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 20px;
+
+    text-decoration: none;
+    color: white;
+}
+.navbar-items a:link {
+    text-decoration: none;
+
+}
+/* navbar end */
+
+
+/* footer */
+
+#footer-section
+{
+    margin-top: 0%;
+    background-color: black;
+    padding: 10px;
+    margin-bottom: -100%;
+}
+
+.footer
+{
+    
+    text-align: center;
+    color: white;
+    letter-spacing: 1.5;
+}
+
+/* footer end */
+
+
+/* home */
+
+.home{
+    background-color: whitesmoke;
+    margin-bottom: 0%;
+    padding: 0%;
+    margin: 0px;
+    margin-bottom: 0px;
+}
+.home-img ,img{
+    height: 600px;
+    width: 100%;
+    margin: 0px;
+
+}
+/* home end */
+
+/* cards section */
+#card-section{
+    margin-top: -23px;
+    background-color: #f7f7f7;
+}
+#card-heading {
+    padding: 10px;
+    color:black;
+    font-size: 29px;
+    text-align: center;
+}
+#paragraph{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 0%;
+    font-family: 'David Libre', serif;
+}
+
+#table-section table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.places-names{
+    padding: 2px;
+    background-color: floralwhite;
+}
+
+.places-names h4{
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+.cards a{
+    text-decoration: none;
+}
+
+.place-images img {
+    height: 200px;
+    width: 100%;
+    margin: 0px;
+}
+
+/* card section end */
+
+/* blog.html */
+
+/* blog section */
+#blog-container {
+    padding:20px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#blog-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.blog-para{
+    padding-left: 13%;
+    padding-right: 13%;
+}
+#main-para{
+    font-size: 20px;
+    text-align: justify;
+    letter-spacing: 13.7;
+    line-height: 1.3;
+}
+/* blog page end */
+
+/* about us page  */
+#about-us {
+    /* padding: 0px; */
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#heading {
+    font-size: 30px;
+}
+
+#about-para {
+    padding-left:14% ;
+    padding-right:14% ;
+}
+
+.main-para {
+    font-size: 20px;
+    letter-spacing: 1.5;
+}
+
+
+/* contact form */
+
+#contact-form {
+    background-color:#f2f6ff;
+
+}
+.social-icon{
+    Width: 50px;
+    Height: 50px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left:32px;
+    padding-right: 32px;
+}
+#form-wrapper{
+    padding: 30px;
+}
+
+form {
+    border: 1px solid #ccc;
+    background-color:white;
+    width:500px;
+    margin:auto auto auto auto;
+    /* padding:20px; */
+}
+/* input {
+    width: 100%;
+    margin-top: 20px;
+
+} */
+.social-wrapper {
+    background-color: #f2f6ff;
+    width: 500px;
+    height: 100px;
+}
+.input-box {
+    font-size: 18px;
+    padding-bottom: 12px;
+    margin-bottom: 10px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 100%;
+}
+
+#input-wrapper {
+    padding: 40px;
+    margin-top: 20px;
+}
+
+.button {
+    background-color: rgb(67, 161, 95);
+    color: white;
+    text-align: center;
+    height: 50px;
+    width: 90px;
+    margin-left: 150px;
+    font-size: 20px;
+}

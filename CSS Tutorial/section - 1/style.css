@@ -1,0 +1,82 @@
+/* text-transform is used to make text uppercase or lowercase or capitilized */
+/* letter spacing is used make some spacing in between the letter  */
+/* word spacing is used to make some spacing between the words */
+/* line height is used to increase the line in paragraph */
+
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+h1{
+    color: blue;
+    text-align: center;
+    font-style: italic;
+
+    /* text decoration the main intention of the properties is that to underline the text , have underline over the text */
+
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+h2{
+    color: blue;
+    text-align: center;
+    font-style: italic;
+
+    /* underline over the text */
+    text-decoration: overline;
+
+    /* in case we have link over the some text then use  */
+
+}
+
+
+a {
+    color: blue;
+    font-size: 24px;
+    text-align: center;
+    font-style: italic;
+    /* in case we have link over the some text then use text-decoration: none; to remove the line */
+    text-decoration: none;
+
+}
+
+h3 {
+    color: blue;
+    text-align: center;
+    font-style: italic;
+
+    /* line throught cut the text using a line */
+    text-decoration: line-through;
+}
+p{
+    color: brown;
+    /* By using justify all the text takes the avilable spaces means whole space */
+    text-align: justify;
+    /* there is also some properties for the text alignment like 
+    center,
+    right,
+    left */
+
+    /*
+     By doing that we can specify the inherit the other properties of the font
+     font-style: oblique; 
+    */
+
+
+    /* font - weight specify the font thickness */
+
+    font-weight: 700;
+    text-transform: capitalize;    
+
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 2;
+
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+/* By using font style we can specify whether we want the font in italic, bold,  */

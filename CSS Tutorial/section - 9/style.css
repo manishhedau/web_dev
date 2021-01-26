@@ -1,0 +1,13 @@
+#span1 {
+    background-color: lightblue;
+    height: 100px;
+    width: 200px;
+}
+
+#span2 {
+    background-color: #ff7f50;
+    display: inline-block;
+    height: 100px;
+    width: 200px;
+}
+

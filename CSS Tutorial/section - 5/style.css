@@ -1,0 +1,41 @@
+body{
+    margin: 0%;
+    padding: 0px;
+}
+
+
+#topbar{
+    background-color: lightblue;
+    padding: 20px;
+}
+
+.menu-item {
+    font-size: 24px;
+    margin: 24px;
+    color: black;
+
+    /* to remove the underline from the links we use text-decoration none */
+
+    text-decoration: none;
+}
+
+
+/* unvisited link */
+.menu-item:link {
+    color: red;
+  }
+  
+/* visited link */
+.menu-item:visited {
+    color: green;
+}
+
+/* mouse over link */
+.menu-item:hover {
+    color: hotpink;
+}
+
+/* selected link */
+.menu-item:active {
+    color: blue;
+}

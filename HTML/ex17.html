@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignIn Form</title>
+</head>
+<body style="background-color: lightblue;">
+    
+    <div>
+        <h2>Signin</h2>
+        <form action="">
+            <label>Full Name</label> <br>
+            <input type="text" name="full-name"> <br>
+
+            <label>Email</label> <br>
+            <input type="email" name="email" required> <br>
+
+            <label>Password</label> <br>
+            <input type="password" name="password"> <br>
+
+            <label>Confirm Password</label> <br>
+            <input type="password" name="confirm-password"> <br>
+
+            <label>Gender</label> <br>
+
+            <input type="radio" name="Male" value="male" checked>
+            <label>Male</label>
+
+            <input type="radio" name="female" value="female">
+            <label>Female</label>
+
+            <input type="radio" name="other" value="other">
+            <label>Other</label>
+
+
+            <br>
+            <label>Security Question</label>
+            <br>
+            <select name="security-question" id="">
+                <option value="first-question">What was your first pet name?</option>
+                <option value="second-question">What was your job profile?</option>
+                <option value="third-question">What was your nick name?</option>
+            </select>
+            <br>
+            <textarea name="text-area" id="" cols="30" rows="10"></textarea>
+            <br>
+            <input type="checkbox" name="term-condition" id="" value="accept">
+            <label>I agree to accept the terms and conditions</label>
+            <br>
+            <input type="button" value="register" name="submit">
+        </form>
+    </div>
+</body>
+</html>

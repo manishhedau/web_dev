@@ -1,0 +1,43 @@
+#signup{
+    background-color: lightblue;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 11px;
+    outline: none;
+    cursor: pointer;
+    
+}
+
+
+#signup:hover{
+    background-color: blue;
+    color: white;
+}
+
+#login{
+    background-color: white;
+    border: 2px solid lightblue;
+    padding: 10px 16px;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+}
+
+#login:hover{
+    background-color: lightblue;
+    border: 1px solid white;
+    outline: none;
+    padding: 10px 16px;
+    /* color: white; */
+    
+}
+
+#disable{
+    background-color: violet;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    cursor: not-allowed;
+    opacity: 0.9;
+}

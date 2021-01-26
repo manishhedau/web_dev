@@ -1,0 +1,22 @@
+/* div by default has a 
+display :block;
+*/
+
+#wrapper {
+    margin-left: 25px;
+    margin-right: 0px;
+}
+
+#heading {
+    text-align: center;
+}
+
+.image-wrapper{
+    display: inline;
+}
+
+span{
+    display: inline;
+    font-size: 20px;
+    visibility: none;
+}
